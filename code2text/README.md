@@ -11,6 +11,7 @@ use:
     -m maximum length of each word (optional)
     -o output to filename
     -s sort output list of words
+    -g output log filename
     -w list all collected words
     -r replacement with collected words .txt
 

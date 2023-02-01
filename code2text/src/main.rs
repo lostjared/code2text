@@ -8,6 +8,7 @@ use:
     -m maximum length each word can be
     -o output to filename
     -s sort output list of words
+    -g output log filename
     -w list all collected words
     -r text replacement with collected words (see README)
 
