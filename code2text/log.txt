@@ -1,0 +1,32 @@
+code2text: (2022-11-04 - 01:59:55) -  Scanning started
+code2text: (2022-11-04 - 01:59:55) -  Scanning finished.
+{
+	Gathered 1623 tokens for pool.
+	Text contained 5228 lines.
+	Now generating words...
+}
+
+code2text: (2022-11-14 - 09:48:55) -  Scanning started
+code2text: (2022-11-14 - 09:49:02) -  Scanning finished.
+{
+	Gathered 10233 tokens for pool.
+	Text contained 100182 lines.
+	Now generating words...
+}
+
+code2text: (2022-11-14 - 09:49:17) -  Scanning started
+code2text: (2022-11-14 - 09:49:24) -  Scanning finished.
+{
+	Gathered 999 tokens for pool.
+	Text contained 100182 lines.
+	Now generating words...
+}
+
+code2text: (2022-11-14 - 09:49:32) -  Scanning started
+code2text: (2022-11-14 - 09:49:32) -  Scanning finished.
+{
+	Gathered 0 tokens for pool.
+	Text contained 1 lines.
+	Now generating words...
+}
+
