@@ -4,7 +4,8 @@
 
 Help generate text to use with text 2 image software.
 
-enter code2text directory
+install rust compiler toolchain 
+enter code2text subdirectory
 and use
 
 $ cargo build --release
