@@ -71,7 +71,6 @@ pub mod log {
 
         pub fn log(&mut self, data: &str, level: String) {
             let t = the_time();
-
             if self.colors {
                 writeln!(
                     self.out_stream,
@@ -91,13 +90,18 @@ pub mod log {
                 .expect("On log write");
             }
             if self.echo {
-                println!(
-                    "{}: ({}) - {}{}",
-                    self.program_name.red(),
-                    t.green(),
-                    level.blue(),
-                    data
-                )
+                if cfg!(unix) {
+                    println!("this is unix alike");
+                    println!(
+                        "{}: ({}) - {}{}",
+                        self.program_name.red(),
+                        t.green(),
+                        level.blue(),
+                        data
+                    )
+                } else {
+                    println!("{}: ({}) - {}{}", self.program_name, t, level, data)
+                }
             }
         }
 
