@@ -91,7 +91,6 @@ pub mod log {
             }
             if self.echo {
                 if cfg!(unix) {
-                    println!("this is unix alike");
                     println!(
                         "{}: ({}) - {}{}",
                         self.program_name.red(),
