@@ -5,6 +5,9 @@
 ## Overview
 `code2text` is a versatile tool designed to generate random words from text files or source code. It provides a wide range of options to customize the output based on your specific needs, including filtering by word length, selecting words with underscores, and output customization.
 
+## Motivation
+To be able to use large amounts of text and generate random words from that text quickly and easily from the terminal. It can be used kind of like an advanced mad libs.
+
 ## Installation
 Clone the repository and build the project using Rust's package manager, Cargo.
 
